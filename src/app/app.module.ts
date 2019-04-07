@@ -3,6 +3,7 @@
 // import { MatSidenavModule, MatCheckboxModule, MatToolbarModule, MatButtonModule, MatIconModule, MatListModule} from '@angular/material'; 
  import { AppRoutingModule } from './app-routing.module';
  import { AppComponent } from './app.component';
+ import { ChatLoginComponent } from './chat-login/chat-login.component';
  import { ChatBoxComponent } from './chat-box/chat-box.component';
 // import { LayoutModule } from '@angular/cdk/layout';
  import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -139,6 +140,7 @@ import {
   ],
   declarations: [
         AppComponent,
+        ChatLoginComponent,
         ChatBoxComponent
       ],
       imports: [
